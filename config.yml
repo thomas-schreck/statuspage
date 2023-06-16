@@ -143,11 +143,9 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
+    - name: Email & Groupware
       closed: true
-    - name: Empty Category
-    - name: Uncategorized
+    - name: Netzwerk
       untitled: true
 
   # These are your systems. Change them to
@@ -158,20 +156,10 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+    - name: Email
+      category: Email & Groupware
+    - name: DNS
+      category: Netzwerk
 
   # What date format to use?
   #
